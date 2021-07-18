@@ -32,7 +32,7 @@ To minimize a profile, follow these steps:
 
 1. Use the analysis script from Jakob Rieck's macos-sandbox-coverage solution.
 2. Use the minimization script to obtain the minimized `rules.sb` sandbox profile in SBPL.
-3. Compile using compile\_sb from Stefan Esser's sandbox\_toolkit.
+3. Compile using `compile_sb` from Stefan Esser's sandbox\_toolkit.
 4. Use the test script to apply the compiled minimized profile to the app.
 
 ## Using macos-sandbox-coverage
@@ -66,10 +66,3 @@ The test script has three switches:
 ```sh
 $ test.py --ap /System/Applications/Calendar.app/ --timeout 60 --m rules.bin
 ```
-
-## Compiling the resulted profile
-
-```sh
-$ ./maap/extern/compile_sb rules.sb rules.bin
-```
-
