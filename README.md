@@ -65,22 +65,6 @@ The test script has three switches:
 
 ```sh
 $ test.py --ap /System/Applications/Calendar.app/ --timeout 60 --m rules.bin
-
-## Compiling the resulted profile
-
-```sh
-$ ./maap/extern/compile_sb rules.sb rules.bin
-```
-
-## Applying the compiled profile
-The test script has three switches:
-1. `--app` to provide the path to the application
-2. `--timeout` to specify the amount of time in seconds for the app to be tested. This is an optional argument, the application will run until is terminated by the user unless a timeout is specified.
-3. `--m` to provide the path to the compiled minimized profile.
-
-```sh
-$
-
 ```
 
 ## Compiling the resulted profile
@@ -88,16 +72,4 @@ $
 ```sh
 $ ./maap/extern/compile_sb rules.sb rules.bin
 ```
-
-## Applying the compiled profile
-The test script has three switches:
-1. `--app` to provide the path to the application
-2. `--timeout` to specify the amount of time in seconds for the app to be tested. This is an optional argument, the application will run until is terminated by the user unless a timeout is specified.
-3. `--m` to provide the path to the compiled minimized profile.
-
-```sh
-$ ./test.py --app /System/Applications/Calculator.app/ --timeout 60 --m rules.bin
-
-```
-
 
