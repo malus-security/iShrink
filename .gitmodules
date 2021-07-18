@@ -1,0 +1,6 @@
+[submodule "maap"]
+	path = maap
+	url = https://github.com/0xbf00/maap
+[submodule "matching-core/simbple"]
+	path = matching-core/simbple
+	url = https://github.com/0xbf00/simbple
