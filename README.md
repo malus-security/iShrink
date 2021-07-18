@@ -64,5 +64,5 @@ The test script has three switches:
 3. `--m` to provide the path to the compiled minimized profile.
 
 ```sh
-$ test.py --ap /System/Applications/Calendar.app/ --timeout 60 --m rules.bin
+$ ./test.py --app /System/Applications/Calendar.app/ --timeout 60 --m rules.bin
 ```
